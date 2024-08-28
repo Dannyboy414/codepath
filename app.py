@@ -10,7 +10,7 @@ client = openai.AsyncClient(api_key=api_key, base_url=endpoint_url)
 # https://platform.openai.com/docs/models/gpt-4o
 model_kwargs = {
     "model": "gpt-4o-mini",
-    "temperature": 0.3,
+    "temperature": 1.0,
     "max_tokens": 500
 }
 
